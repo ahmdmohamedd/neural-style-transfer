@@ -10,7 +10,7 @@ A neural style transfer system that blends the content of one image with the art
 
 ## Repository Details
 - **Notebook File:** `neural_style_transfer.ipynb`
-- The system is set to run for **epoch 0 only** due to hardware limitations. Users can adjust the `epochs` parameter for more iterations if their system allows.
+- The system ran for **epoch 0 only** due to hardware limitations. Users can adjust the `epochs` parameter for more iterations if their system allows.
 
 ## How It Works
 1. Preprocesses the input content and style images.
@@ -37,7 +37,7 @@ A neural style transfer system that blends the content of one image with the art
    ```bash
    jupyter notebook neural_style_transfer.ipynb
    ```
-4. Replace `path_to_content_image.jpg` and `path_to_style_image.jpg` with your image paths.  
+4. Replace `original.png` and `style_image.png` with your image paths or use the images in the repository.
 
 ## Notes
 - Due to hardware limitations, this implementation demonstrates the result after **epoch 0**. For improved results, increase the number of epochs if your hardware supports it.
